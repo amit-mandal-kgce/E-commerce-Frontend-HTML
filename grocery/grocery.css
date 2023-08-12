@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D3D3D3;
+    margin-top: 61px;
+    overflow-x: hidden;
+}
+
+/* section1 */
+.Navbar{
+    position: absolute;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    background: #009933;
+    /* border: 2px solid red; */
+}
+.Navbar .block-a{
+    width: 46%;
+    /* border: 2px solid blue; */
+}
+.block-a h2{
+    float: right;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #fff;
+    cursor: pointer;
+}
+.block-a .search{
+    text-align: center;
+    display: flex;
+    float: right;
+    width: 60%;
+    height: 30px;
+    margin-top: 12px;
+    background: #fff;
+    border-radius: 3px;
+    /* border: 2px solid black; */
+}
+.search input{
+    height: 20px;
+    width: 90%;
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+.search i{
+    font-weight: bold;
+    margin: 2px;
+    font-size: 28px;
+    color: #009933;
+}
+.Navbar .block-b{
+    width: 25%;
+    /* border: 2px solid green; */
+}
+.block-b .location{
+    list-style: none;
+    float: left;
+    font-size: 18px;
+    margin: 16px;
+    color: #fff;
+}
+.block-b ul li h3{
+    float: right;
+    text-align: center;
+    width: 70px;
+    margin: 8px;
+    padding: 7px 16px;
+    color: #009933;
+    background: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+#logins{
+    opacity: 0;
+    visibility: hidden;
+    margin: 60px 210px;
+    background: #fff;
+    z-index: 1;
+    width: 15%;
+    /* border: 2px solid red; */
+    position: absolute;
+}
+li:hover ul#logins{
+    opacity: 1;
+    visibility: visible;
+}
+#logins li{
+    list-style: none;
+    padding: 12px;
+    border-bottom: .1px solid #DCDCDC;
+}
+#logins li i{
+    font-size:18px;
+}
+#logins a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+#logins li .bxs-up-arrow{
+    position: absolute;
+    color: #ffffff;
+    font-size: 22px;
+    margin: -29px 86px;
+}
+#logins li h4{
+    position: relative;
+    font-size: 17px;
+    line-height: 22px;
+
+}
+.block-c{
+    width: 25%;
+    /* border: 2px solid orange;  */
+}
+.block-c ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+.block-c li{
+    position: relative;
+    width: 20%;
+    padding: 12px;
+    margin: 5px 12px;
+}
+.block-c a{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'poppins',sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.bx-chevron-down:hover{
+    transform: rotate(180deg);
+}
+#morein{
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+li:hover ul#morein{
+    opacity: 1;
+    visibility: visible;
+}
+#morein li .bxs-up-arrow{
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    margin: -32px 90px;
+}
+#morein li{
+    margin: 0px -75px;
+    width: 42%;
+    background: #fff;
+    border-bottom: .1px solid #DCDCDC;
+}
+#morein a{
+    margin: 3px;
+    font-size: 16px;
+    color: black;
+}
+/* Section2 */
+.contenttwo ul{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background: #fff;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.contenttwo li{
+    width: 12%;
+    height: 100px;
+    margin: 5px 18px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.contenttwo ul li img{
+    width: 80px;
+    transition: all .3s;
+    /* border: 1px solid red; */
+}
+.contenttwo ul li h4:hover{
+    color: #20B2AA;
+}
+#contentmini{
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    position: relative;
+    top: 13px;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+li:hover ul#contentmini{
+    opacity: 1;
+    visibility: visible;
+}
+#contentmini li{
+    margin: 0;
+    width: 100%;
+    border-bottom: .1px solid #DCDCDC;
+}
+#contentmini a{
+    position: relative;
+    line-height: 40px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    transition: all .3s;
+}
+#contentmini a:hover{
+    color: #20B2AA;
+}
+/* Section3 */
+.container-one{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    margin-top: 8px;
+    padding: 20px;
+    background: #fff;
+    /* border: 1px solid red; */
+}
+.bx-caret-left,
+.bx-caret-right{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    color: #009933;
+    border-radius: 50px;
+    font-size: 80px;
+    background: #00000016;
+    border: 1px solid red;
+}
+.bx-caret-left{
+    top: 120px;
+    left: -20px;
+}
+.bx-caret-right{
+    right: 20px;
+    bottom: 70px;
+}
+.container-item{
+    display: flex;
+    overflow-x: auto;
+    padding-top: 10px;
+}
+.item-one{
+    text-align: center;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 400px;
+    height: 200px;
+    margin-left: 25px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    border: 1px solid #DCDCDC;
+}
+.item-one:first-child{
+    margin-left: 6px;
+}
+.container-item::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.item-one img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    transition: transform 2s;
+}
+.item-one:hover{
+    border: 0.1px solid #DCDCDC;
+    box-shadow: 5px  10px  10px #DCDCDC;
+}
+.item-one:hover img{
+    transform: scale(1.1);
+}
+
+/* Section4 */
+.container-two{
+    position: relative;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.container-two .banner{
+    width: 99%;
+    height: 105px;
+    margin-left: .5%;
+    /* border: 1px solid blue; */
+}
+.banner img{
+    width: 100%;
+}
+.container-two .foodgrains{
+    width: 99%;
+    margin-left: .5%;
+    height: 500px;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+.foodgrains a{
+    width: 65%;
+    /* border: 1px solid green; */
+}
+.foodgrains a img{
+    width: 100%;
+    height: 499px;
+}
+.foodgrains .organicfood{
+    width: 34%;
+    margin-left: 1%;
+    /* border: 1px solid red; */
+}
+.organicfood a img{
+    position: relative;
+    width: 100%;
+    height: 246px;
+    /* border: 1px solid blue; */
+}
+.container-two .housecare{
+    width: 99%;
+    height: auto;
+    margin-left: .5%;
+    /* border: 1px solid blue; */
+}
+.container-two .housecare img{
+    width: 32%;
+    margin: 0 1px;
+    /* border: 1px solid red; */
+}
+.container-two .personalcare{
+    position: relative;
+    display: flex;
+    width: 99%;
+    height: auto;
+    margin-left: .5%;
+    /* border: 1px solid greenyellow; */
+}
+.personalcare .offerbanne a{
+    width: 30%;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+
+/* Section5 */
+.main{
+    position: relative;
+    width: 96%;
+    height: 300px;
+    background: #fff;
+    margin-left: .5%;
+    margin-top: 20px;
+    padding: 20px;
+    /* border: 1px solid blue; */
+}
+.bx-chevron-left,
+.bx-chevron-right{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #55555532;
+    border-radius: 50px;
+}
+.bx-chevron-left{
+    font-size: 80px;
+    top: 40%;
+    left: -35px;
+}
+.bx-chevron-right{
+    font-size: 80px;
+    right: -35px;
+    bottom: 40%;
+}
+.item-div{
+    margin-top: 40px;
+    overflow-x: auto;
+    display: flex;
+}
+.item{
+    text-align: center;
+    min-width: 200px;
+    max-width: 200px;
+    height: 270px;
+    margin-left: 15px;
+    border-radius: 2px;
+    background: #fff;
+    border: .1px solid #fff;
+}
+.item:hover{
+    border: 0.1px solid #DCDCDC;
+    box-shadow: 0  0  15px #DCDCDC;
+}
+.item:first-child{
+    margin-left: 0;
+}
+.item-div::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+
+.item-bar a{
+    margin-top: -9px;
+    padding: 12px;
+    float: right;
+    font-size: 13px;
+    color: #fff;
+    background: #20B2AA;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.item a{
+    text-decoration: none;
+}
+.item a p{
+    color: #000;
+    transition: all .3s;
+}
+.item a p:hover{
+    color: #20B2AA;
+}
+.item img{
+    width: 55%;
+    margin-top: 5px;
+}
+.item div{
+    padding: 12px;
+    margin: 14px;
+    font-size: 20px;
+    color: #2986cc;
+    border: 1px solid #D3D3D3;
+}

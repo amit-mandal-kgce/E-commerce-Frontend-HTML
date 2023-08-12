@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .tabContainer{
+            display: flex;
+        }
+        .buttonContainer{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 5%;
+            height: 400px;
+            border: 2px solid pink;
+            right: 0;
+        }
+        .tabPanel{
+            position: absolute;
+            width: 80%;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="tabContainer">
+        <div class="cos">
+            <div class="tabPanel">Tab 1:Content</div>
+            <div class="tabPanel">Tab 4:Content</div>
+            <div class="tabPanel">Tab 3:Content <img src="./beauty.webp" alt=""></div>
+            <div class="tabPanel">Tab 4:Contentxxxxxxxxxxx</div>
+            </div>
+        <div class="buttonContainer">
+            <button onclick="showPanel(0,'#f44336')"> <input type="checkbox">Tab 1</button>
+            <button onclick="showPanel(1,'#7FFF00')">Tab 2</button>
+            <button onclick="showPanel(2,'#D2691E')">Tab 3</button>
+            <button onclick="showPanel(3,'#DC143C')">Tab 4</button>
+        </div>
+        
+    </div>
+    <script src="./scripta.js"></script>
+</body>
+</html>
