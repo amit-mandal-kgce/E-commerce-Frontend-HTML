@@ -15,19 +15,34 @@
                 <a href="#">IndMart</a>
             </div>
             <div class="top-nav-leftb">
-                <input class="search" type="text" name="search" id="search">
+                <input class="search" type="text" name="search" id="search" placeholder="Search for Products, Brands & More">
                 <a href="#" class="btnx"><i class='bx bx-search'></i></a>
             </div>
         </div>
         <div class="top-nav-right">
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-user-circle'></i><p>Log In</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-user-circle'></i><p>Log In</p></a>
+                    <ul id="logins">
+                        <li><i class='bx bxs-up-arrow' ></i><h4>New Customer?</h4><a href="../login/login.html" style="float: right; color: #0c00ff; margin-top: -30px; font-weight: bold;"> Sign Up</a></li>
+                        <li><a href="#"><i class='bx bxs-user-circle' style='color:#0c00ff'  ></i> My Profile</a></li>
+                        <li><a href="#"><i class='bx bx-font-size' style='color:#0c00ff' ></i> IndMart Plus Zone</a></li>
+                        <li><a href="#"><i class='bx bx-trending-up' style='color:#0c00ff'></i> Orders</a></li>
+                        <li><a href="#"><i class='bx bxs-heart' style='color:#0c00ff' ></i> Wishlist</a></li>
+                        <li><a href="#"><i class='bx bxs-coupon' style='color:#0c00ff' ></i> Rewards</a></li>
+                        <li><a href="#"><i class='bx bxs-gift' style='color:#0c00ff' ></i> Gift Cards</a></li>
+                    </ul>
+                </li>
             </div>
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-heart' ></i><p>Favorites</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-heart' ></i><p>Favorites</p></a>
+                </li>
             </div>
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-cart' ></i><p>Cart</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-cart' ></i><p>Cart</p></a>
+                </li>
             </div>
         </div>
     </nav>
@@ -41,9 +56,9 @@
                         <li><a href="#">Mobiles<i class='bx bx-caret-right'></i></a>
                             <div class="dropdown-manu-right">
                                 <ul>
-                                    <li><a href="#">Honor</a></li>
-                                    <li><a href="#">Infinix</a></li>
-                                    <li><a href="#">Nothing</a></li>
+                                    <li><a href="../mobiles/hornor.html">Honor</a></li>
+                                    <li><a href="../mobiles/infinix.html">Infinix</a></li>
+                                    <li><a href="../mobiles/nothing.html">Nothing</a></li>
                                     <li><a href="#">Accessories</a></li>
                                 </ul>
                             </div>
@@ -218,507 +233,604 @@
             </li>
         </ul>
     </section>
-    <!-- Section2 -->/
-    <!-- Bar 1 -->
-    <section class="factor-a">
-        <h2>Top Deals on Fashion</h2>
-        <a href="#" class="fest">VIEW All</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="https://rukminim2.flixcart.com/fk-p-flap/150/150/image/324eee4e5f645574.jpg?q=70" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
+    <!-- Section2 -->
+    <section class="slide-container">
+	
+        <div class="slides">
+            <a href="#"><img id="images" src="./fasion/banner-a.jpg" class="active"></a>
+            <a href="#"><img id="images" src="./fasion/banner-b.jpg"></a>
+            <a href="#"><img id="images" src="./fasion/banner-c.jpg"></a>
+            <a href="#"><img id="images" src="./fasion/banner-d.jpg"></a>
+            <a href="#"><img id="images" src="./fasion/banner-e.jpg"></a>
+            <a href="#"><img id="images" src="./fasion/banner-f.jpg"></a>
         </div>
-    </section>
-    <!-- Bar 2 -->
-    <section class="factor-b">
-        <h2>Fashion Best Sellers</h2>
-        <a href="./Pages/fashion_sellers.html" class="fest">VIEW All</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/children-.png" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Bar 3 -->
-    <section class="factor-c">
-        <h2>Top Offers</h2>
-        <a href="./Pages/fashion_sellers.html" class="fest">VIEW All</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/children-.png" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Bar 4 -->
-    <section class="factor-d">
-        <h2>Quality Assured Picks</h2>
-        <a href="./Pages/fashion_sellers.html" class="fest">VIEW All</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/children-.png" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Bar 5 -->
-    <section class="factor-e">
-        <h2>India's Most Searched</h2>
-        <a href="./Pages/fashion_sellers.html" class="fest">VIEW All</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/children-.png" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Bar 6 -->
-    <section class="factor-f">
-        <h2>Budget Friendly Deals</h2>
-        <a href="./Pages/fashion_sellers.html" class="fest">VIEW All</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/children-.png" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Bar 7 -->
-    <section class="factor-g">
-        <h2>Most wanted Styles</h2>
-        <a href="./Pages/fashion_sellers.html" class="fest">VIEW All</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/children-.png" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Section -->/
     
-    <!-- Section11 -->
+        <div class="buttons">
+            <span class="next">&#10095;</span>
+            <span class="prev">&#10094;</span>
+        </div>
+    
+        <div class="dotsContainer">
+            <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+            <div class="dot" attr='1' onclick="switchImage(this)"></div>
+            <div class="dot" attr='2' onclick="switchImage(this)"></div>
+            <div class="dot" attr='3' onclick="switchImage(this)"></div>
+            <div class="dot" attr='4' onclick="switchImage(this)"></div>
+            <div class="dot" attr='5' onclick="switchImage(this)"></div>
+        </div>
+    
+    </section>
+    <!-- Section3 -->
+    <section class="showlist">
+        <div class="showlist-cont">
+            <a href="#"><img src="./fasion/showlist-a.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/showlist-b.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/showlist-c.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/showlist-d.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/showlist-e.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/showlist-f.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/showlist-g.jpg" alt="Bird"></a>
+        </div>
+        <div class="saze">
+            <p>W</p>
+            <h3>ESTSIDE</h3>
+            <h1>saze</h1>
+        </div>
+    </section>
+    <!-- Section4 -->
+    <section class="wrapper">
+        <i id="left" class="bx bxs-chevron-left"></i>
+        <div class="carousel">
+          <a href="#"><img id="ants" src="./fasion/warpper-a.jpg" alt="Bird" draggable="false"></a>
+          <a href="#"><img id="ants" src="./fasion/warpper-b.jpg" alt="Bird" draggable="false"></a>
+          <a href="#"><img id="ants" src="./fasion/warpper-c.jpg" alt="Bird" draggable="false"></a>
+          <a href="#"><img id="ants" src="./fasion/warpper-d.jpg" alt="Bird" draggable="false"></a>
+          <a href="#"><img id="ants" src="./fasion/warpper-e.jpg" alt="Bird" draggable="false"></a>
+          <a href="#"><img id="ants" src="./fasion/warpper-f.jpg" alt="Bird" draggable="false"></a>
+        </div>
+        <i id="right" class="bx bxs-chevron-right"></i>
+    </section>
+    <!-- Section4 -->
+    <section class="offer">
+        <p>CAMPUS BRAND DAYS</p>
+        <ul>
+        <a href="#"><img src="./fasion/campus-a.jpg" alt="Bird"></a>
+        <a href="#"><img src="./fasion/campus-b.jpg" alt="Bird"></a>
+        </ul>
+    </section>
+    <!-- Section4 A-->
+    <section class="offer">
+        <p>DEALS WHEEL</p>
+        <ul>
+        <a href="#"><img src="./fasion/offer-a.jpg" alt="Bird"></a>
+        <a href="#"><img src="./fasion/offer-b.jpg" alt="Bird"></a>
+        </ul>
+    </section>
+    <!-- Section5 A-->
+    <section>
+        <div class="store">
+            <a href="#"><img src="./fasion/store-a.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-b.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-c.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-d.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-e.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-f.jpg" alt="Bird"></a>
+        </div>
+        <div class="store">
+            <a href="#"><img src="./fasion/store-g.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-h.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-m.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-j.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-k.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/store-l.jpg" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section4 B-->
+    <section class="offer">
+        <p>FEATURED BRANDS</p>
+        <ul>
+            <a href="#"><img src="./fasion/feature-a.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/feature-b.jpg" alt="Bird"></a>
+        </ul>
+        <ul>
+            <a href="#"><img src="./fasion/feature-c.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/feature-d.jpg" alt="Bird"></a>
+         </ul>
+         <ul>
+            <a href="#"><img src="./fasion/feature-e.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/feature-f.jpg" alt="Bird"></a>
+         </ul>
+    </section>
+    <!-- Section6 -->
+    <section class="container-one">
+        <h2>CART-WORTHY CATAGORIES</h2>
+        <div class="container-item" id="container-itemo">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-g.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-h.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/cart-i.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="lefto"></i>
+        <i class='bx bx-chevron-right' id="righto"></i>
+    </section>
+    <!-- Section6 A-->
+    <section class="container-one">
+        <h2>FEATURED THIS WEEK</h2>
+        <div class="container-item" id="container-itema">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-g.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-h.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-i.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-j.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-k.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-l.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-m.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/featured-n.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="lefta"></i>
+        <i class='bx bx-chevron-right' id="righta"></i>
+    </section>
+    <!-- Section6 B-->
+    <section class="container-one">
+        <h2>THE WESTSIDE STORE</h2>
+        <div class="container-item" id="container-itemb">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/west-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/west-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/west-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/west-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/west-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/west-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/west-g.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftb"></i>
+        <i class='bx bx-chevron-right' id="rightb"></i>
+    </section>
+    <!-- Section6 C-->
+    <section class="container-one">
+        <h2>NEW ON CLiQ</h2>
+        <div class="container-item" id="container-itemc">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-g.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-h.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/neon-i.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftc"></i>
+        <i class='bx bx-chevron-right' id="rightc"></i>
+    </section>
+    <!-- Section4 B-->
+    <section class="offer">
+        <p>BEAUTY BRIGADE</p>
+        <ul>
+            <a href="#"><img src="./fasion/brigade-a.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/brigade-b.jpg" alt="Bird"></a>
+        </ul>
+        <ul>
+            <a href="#"><img src="./fasion/brigade-c.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/brigade-d.jpg" alt="Bird"></a>
+        </ul>
+    </section>
+    <!-- Section6 D-->
+    <section class="container-one">
+        <div class="container-item" id="container-itemd">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/brigades-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/brigades-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/brigades-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/brigades-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/brigades-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/brigades-f.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftd"></i>
+        <i class='bx bx-chevron-right' id="rightd"></i>
+    </section>
+    <!-- section4 C -->
+    <section class="offer">
+        <p>PiQS FOR WOMEN</p>
+        <ul>
+            <a href="#"><img src="./fasion/piqsw-a.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/piqsw-b.jpg" alt="Bird"></a>
+        </ul>
+    </section>
+    <!-- Section6 E-->
+    <section class="container-one">
+        <div class="container-item" id="container-iteme">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-f.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="lefte"></i>
+        <i class='bx bx-chevron-right' id="righte"></i>
+    </section>
+    <!-- Section6 F-->
+    <section class="container-one">
+        <div class="container-item" id="container-itemf">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-aa.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-bb.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-cc.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-dd.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-ee.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-ff.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-gg.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-hh.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsws-ii.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftf"></i>
+        <i class='bx bx-chevron-right' id="rightf"></i>
+    </section>
+    <!-- Section6 G-->
+    <section class="container-one">
+        <h2>PRECIOUS PiQS</h2>
+        <div class="container-item" id="container-itemg">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/pricious-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/pricious-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/pricious-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/pricious-d.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftg"></i>
+        <i class='bx bx-chevron-right' id="rightg"></i>
+    </section>
+    <!-- section4 D-->
+    <section class="offer">
+        <p>PiQS FOR MEN</p>
+        <ul>
+            <a href="#"><img src="./fasion/piqsm-a.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/piqsm-b.jpg" alt="Bird"></a>
+        </ul>
+    </section>
+    <!-- Section6 H-->
+    <section class="container-one">
+        <div class="container-item" id="container-itemh">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-e.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="lefth"></i>
+        <i class='bx bx-chevron-right' id="righth"></i>
+    </section>
+    <!-- Section6 I-->
+    <section class="container-one">
+        <div class="container-item" id="container-itemi">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-aa.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-bb.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-cc.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-dd.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-ee.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-ff.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-gg.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-hh.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/piqsms-ii.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="lefti"></i>
+        <i class='bx bx-chevron-right' id="righti"></i>
+    </section>
+    <!-- section4 E-->
+    <section class="offer">
+        <p>KIDS CORNER</p>
+        <ul>
+            <a href="#"><img src="./fasion/kid-a.jpg" alt="Bird"></a>
+            <a href="#"><img src="./fasion/kid-b.jpg" alt="Bird"></a>
+        </ul>
+    </section>
+    <!-- Section6 J-->
+    <section class="container-one">
+        <div class="container-item" id="container-itemj">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/kids-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/kids-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/kids-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/kids-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/kids-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/kids-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/kids-g.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftj"></i>
+        <i class='bx bx-chevron-right' id="rightj"></i>
+    </section>
+    <!-- Section6 K-->
+    <section class="container-one">
+        <h2>COVETED COLLECTIONS</h2>
+        <div class="container-item" id="container-itemk">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/covetrd-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/covetrd-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/covetrd-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/covetrd-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/covetrd-e.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftk"></i>
+        <i class='bx bx-chevron-right' id="rightk"></i>
+    </section>
+    <!-- Section6 L-->
+    <section class="container-one">
+        <h2>ACCESSORISE YOUR OUTFIT</h2>
+        <div class="container-item" id="container-iteml">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/outfit-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/outfit-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/outfit-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/outfit-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/outfit-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/outfit-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/outfit-g.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftl"></i>
+        <i class='bx bx-chevron-right' id="rightl"></i>
+    </section>
+    <!-- Section6 M-->
+    <section class="container-one">
+        <h2>BRANDS ON THE RISE</h2>
+        <div class="container-item" id="container-itemm">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-g.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-h.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/rise-i.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftm"></i>
+        <i class='bx bx-chevron-right' id="rightm"></i>
+    </section>
+    <!-- Section6 N-->
+    <section class="container-one">
+        <h2>BRAND WALL</h2>
+        <div class="container-item" id="container-itemn">
+            <div class="item-one">
+                <a href="#"><img src="./fasion/wall-a.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/wall-b.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/wall-c.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/wall-d.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/wall-e.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/wall-f.jpg" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="./fasion/wall-g.jpg" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftn"></i>
+        <i class='bx bx-chevron-right' id="rightn"></i>
+    </section>
+    <!-- Section7 -->
     <section class="lastmidl">
         <div class="contact">
             <div class="lastmidl-one">
@@ -780,7 +892,7 @@
             </div>
         </div>
     </section> 
-    <!-- Section12 -->
+    <!-- Section8 -->
     <section class="last">
         <div class="container">
             <div class="container_one">
@@ -799,9 +911,10 @@
                 <p>2023 | Amit Mandal</p>
             </div>
             <div class="container_two">
-                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEJFLb59ERJo3jILQrb5kAJYeaK_gfQk2e3Aw8pg6vNm0VaV5R" alt="Bird">
+                <img src="../index/vi.png" alt="Bird">
             </div>
         </div>
     </section>
+    <script src="fashion.js"></script>
 </body>
 </html>

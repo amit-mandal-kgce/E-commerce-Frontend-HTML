@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IndMart Online Shopping</title>
     <link rel="stylesheet" href="./style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -12,101 +12,93 @@
     <nav class="top-nav">
         <div class="top-nav-left">
             <div class="top-nav-lefta">
-                <a href="#">Walmart</a>
+                <a href="#">IndMart</a>
             </div>
             <div class="top-nav-leftb">
-                <input class="search" type="text" name="search" id="search">
+                <input class="search" type="text" name="search" id="myInput" placeholder="Search for Products, Brands & More" onkeyup="search()">
                 <a href="#" class="btnx"><i class='bx bx-search'></i></a>
             </div>
         </div>
         <div class="top-nav-right">
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-user-circle'></i><p>Log In</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-user-circle'></i><p>Log In</p></a>
+                    <ul id="logins">
+                        <li><i class='bx bxs-up-arrow' ></i><h4>New Customer?</h4><a href="./login/login.html" style="float: right; color: #0c00ff; margin-top: -30px; font-weight: bold;"> Sign Up</a></li>
+                        <li><a href="#"><i class='bx bxs-user-circle' style='color:#0c00ff'  ></i> My Profile</a></li>
+                        <li><a href="#"><i class='bx bx-font-size' style='color:#0c00ff' ></i> IndMart Plus Zone</a></li>
+                        <li><a href="#"><i class='bx bx-trending-up' style='color:#0c00ff'></i> Orders</a></li>
+                        <li><a href="#"><i class='bx bxs-heart' style='color:#0c00ff' ></i> Wishlist</a></li>
+                        <li><a href="#"><i class='bx bxs-coupon' style='color:#0c00ff' ></i> Rewards</a></li>
+                        <li><a href="#"><i class='bx bxs-gift' style='color:#0c00ff' ></i> Gift Cards</a></li>
+                    </ul>
+                </li>
             </div>
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-heart' ></i><p>Favorites</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-heart' ></i><p>Favorites</p></a>
+                </li>
             </div>
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-cart' ></i><p>Cart</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-cart' ></i><p>Cart</p></a>
+                </li>
             </div>
         </div>
     </nav>
     <!-- Section1 -->
     <section class="section-one">
         <div class="section-two">
-            <a href="./mobiles/apple.html"><div class="section-three">
-                <img src="./index/mobile.webp" alt="Bird"> 
-                </div>
+            <a href="./mobiles/apple.html">
+                <img src="./index/mobile.webp" alt="Bird">
                 <h4>Mobiles</h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="./laptop/laptop.html"><div class="section-three">
-                <img src="./index/laptop.webp" alt="Bird"> 
-                </div>
+            <a href="./laptop/laptop.html">
+                <img src="./index/laptop.webp" alt="Bird">
                 <h4>Laptops</h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="./watches/watch.html"><div class="section-three">
-                <img src="./index/electronics.webp" alt="Bird"> 
-                </div>
+            <a href="./watches/watch.html">
+                <img src="./index/electronics.webp" alt="Bird">
                 <h4>Watches</h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="./fashions/fashion.html"><div class="section-three">
-                <img src="./index/fashion.webp" alt="Bird"> 
-                </div>
+            <a href="./fashions/fashion.html">
+                <img src="./index/fashion.webp" alt="Bird">
                 <h4>Fashions</h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="./grocery/grocery.html"><div class="section-three">
-                <img src="./index/grocery.webp" alt="Bird"> 
-                </div>
+            <a href="./grocery/grocery.html">
+                <img src="./index/grocery.webp" alt="Bird">
                 <h4>Grocery</h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="#"><div class="section-three">
-                <img src="./index/sports.webp" alt="Bird"> 
-                </div>
+            <a href="./sports/sports.html">
+                <img src="./index/sports.webp" alt="Bird">
                 <h4>Sports</h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="#"><div class="section-three">
-                <img src="./index/kids.webp" alt="Bird"> 
-                </div>
-                <h4>Kids</h4>
+            <a href="./appliances/appliances.html">
+                <img src="./index/Appliance.webp" alt="Bird">
+                <h4>Appliances</h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="#"><div class="section-three">
-                <img src="./index/book.webp" alt="Bird"> 
-                </div>
+            <a href="./books/books.html">
+                <img src="./index/book.webp" alt="Bird">
                 <h4>Books </h4>
             </a>
         </div>
         <div class="section-two">
-            <a href="#"><div class="section-three">
-                <img src="./index/beauty.webp" alt="Bird"> 
-                </div>
-                <h4>Creams</h4>
-            </a>
-        </div>
-        <div class="section-two">
-            <a href="#"><div class="section-three">
-                <img src="./index/food.webp" alt="Bird"> 
-                </div>
-                <h4>Healthy</h4>
-            </a>
-        </div>
-        <div class="section-two">
-            <a href="#"><div class="section-three">
-                <img src="./index/bike.webp" alt="Bird"> 
-                </div>
+            <a href="./wheelers/wheeler.html">
+                <img src="./index/bike.webp" alt="Bird">
                 <h4>Wheelers</h4>
             </a>
         </div>
@@ -120,11 +112,15 @@
             </button>
         </div>
         <div class="slider_image">
-            <img class="sliderimge" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/84ae27f93c14a4e3.jpg?q=20" alt="Bird">
-            <img class="sliderimge" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/aa3ffec33d25334b.png?q=20" alt="Bird">
-            <img class="sliderimge" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/84ae27f93c14a4e3.jpg?q=20" alt="Bird">
-            <img class="sliderimge" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/aa3ffec33d25334b.png?q=20" alt="Bird">
-            <img class="sliderimge" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/84ae27f93c14a4e3.jpg?q=20" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-a.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-b.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-c.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-d.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-e.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-f.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-g.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-h.webp" alt="Bird">
+            <img class="sliderimge" src="./index/mainbanner-i.webp" alt="Bird">
         </div>
         <div class="btn-container btn-right" onclick="right()">
             <button class="btn">
@@ -134,388 +130,430 @@
     </div>
     <!--Section3  -->
     <!-- Bar 1 -->
-    <section class="factor-a">
-        <a href="./Pages/fashion_sellers.html" class="fest">Fashion Best Sellers</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/children-.png" alt="Bird"> 
-                    </div>
-                    <h4>Kids,Clothing</h4>
-                    <p>Min. 60% Off</p>
-                </a>
+    <section class="collection">
+        <h2>Fashion Best Sellers</h2>
+        <ul>
+            <a href="#">
+                <li><img src="./index/fashion/sports.webp" alt="Bird"></li>
+                <h4>Women's Sports Shoes</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/fashion/jeans.webp" alt="Bird"></li>
+                <h4>Women Ethnic Wear</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/fashion/tshart.webp" alt="Bird"></li>
+                <h4>Men's T Shirts</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/fashion/deodorants.webp" alt="Bird"></li>
+                <h4>Deodorants</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/fashion/palazzos.webp" alt="Bird"></li>
+                <h4>Palazzos</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/fashion/jewellery.webp" alt="Bird"></li>
+                <h4>Jewellery</h4>
+                <p>Min. 50% Off</p>
+            </a>
+        </ul>
+        <li><a href="./Pages/fashion_sellers.html">View All</a></li>
+    </section>
+    <!-- section4 -->
+    <section class="sider">
+        <div class="side-left">
+            <div class="ignore">
+                <p>Monsoon Essentials</p>
+                <a href="#"><i class="bx bxs-chevron-right"></i></a>
             </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jeans.webp" alt="Bird"> 
-                    </div>
-                    <h4>Tops & jeans</h4>
-                    <p>Min. 50% Off</p>
+            <ul>
+                <a href="#">
+                    <img src="./index/monsoon-a.png" alt="Bird">
+                    <p>Wall Decor Items</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/jewellery1.png" alt="Bird"> 
-                    </div>
-                    <h4>Jewellery</h4>
-                    <p>Min. 70% Off</p>
+                <a href="#">
+                    <img src="./index/monsoon-b.png" alt="Bird">
+                    <p>Recliners</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/lehenga.png" alt="Bird"> 
-                    </div>
-                    <h4>Lehenga</h4>
-                    <p>Min. 65% Off</p>
+            </ul>
+            <ul>
+                <a href="#">
+                    <img src="./index/monsoon-c.png" alt="Bird">
+                    <p>Showpices & Figurines</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/palazzos.png" alt="Bird"> 
-                    </div>
-                    <h4>Palazzos</h4>
-                    <p>Min. 20% Off</p>
+                <a href="#">
+                    <img src="./index/monsoon-d.png" alt="Bird">
+                    <p>Speakers</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/fashion/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Puma & Bata</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
+            </ul>
+        </div>
+        <div class="side-right">
+            <a href="#"><img src="./index/sider-right.png" alt="Bird"></a>
         </div>
     </section>
     <!-- Bar 2 -->
-    <section class="factor-b">
-        <a href="./Pages/Best_of_electronics.html" class="fest">Best of Electronics</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Electronics/cameras.png" alt="Bird"> 
-                    </div>
-                    <h4>Cameras</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Electronics/monitors.png" alt="Bird"> 
-                    </div>
-                    <h4>Monitors</h4>
-                    <p>Min. 30% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Electronics/powerbank.png" alt="Bird"> 
-                    </div>
-                    <h4>Power Banks</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Electronics/printer.png" alt="Bird"> 
-                    </div>
-                    <h4>Printers</h4>
-                    <p>Min. 45% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Electronics/projector.png" alt="Bird"> 
-                    </div>
-                    <h4>Projectors</h4>
-                    <p>Min. 10% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Electronics/trimmer.png" alt="Bird"> 
-                    </div>
-                    <h4>Trimmers</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>
-        </div>
+    <section class="collection">
+        <h2>Best Of Electronicss</h2>
+        <ul>
+            <a href="#">
+                <li><img src="./index/Electronics/cameras.png" alt="Bird"></li>
+                <h4>Cameras</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Electronics/monitors.png" alt="Bird"></li>
+                <h4>Monitors</h4>
+                <p>Min. 30% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Electronics/powerbank.png" alt="Bird"></li>
+                <h4>Power Banks</h4>
+                <p>Min. 20% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Electronics/printer.png" alt="Bird"></li>
+                <h4>Printers</h4>
+                <p>Min. 45% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Electronics/projector.png" alt="Bird"></li>
+                <h4>Projectors</h4>
+                <p>Min. 10% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Electronics/trimmer.png" alt="Bird"></li>
+                <h4>Trimmers</h4>
+                <p>Min. 50% Off</p>
+            </a>
+        </ul>
+        <li><a href="./Pages/Best_of_electronics.html">View All</a></li>
     </section>
     <!-- Bar 3 -->
-    <section class="factor-c">
-        <a href="./Pages/pick_styles.html" class="fest">Pick Your Styles</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Styles/laguge.png" alt="Bird"> 
-                    </div>
-                    <h4>Bags,Trolley...</h4>
-                    <p>Min. 45% Off</p>
-                </a>
+    <section class="collection">
+        <h2>Pick Your Styles</h2>
+        <ul>
+            <a href="#">
+                <li><img src="./index/Styles/laguge.png" alt="Bird"></li>
+                <h4>Bags,Trolley...</h4>
+                <p>Min. 45% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Styles/shatr.png" alt="Bird"></li>
+                <h4>Ketch,Harbour</h4>
+                <p>Min. 20% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Styles/shoes.png" alt="Bird"></li>
+                <h4>Highlander...</h4>
+                <p>Min. 30% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Styles/trakshort.png" alt="Bird"></li>
+                <h4>Ven Heusen</h4>
+                <p>Min. 10% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Styles/watch.png" alt="Bird"></li>
+                <h4>Watches</h4>
+                <p>Min. 40% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Styles/Winterwear.png" alt="Bird"></li>
+                <h4>Jackets</h4>
+                <p>Min. 60% Off</p>
+            </a>
+        </ul>
+        <li><a href="./Pages/pick_styles.html">View All</a></li>
+    </section>
+    <!-- section4 A-->
+    <section class="sider">
+        <div class="side-left">
+            <div class="ignore">
+                <p>Rakhi Gifting Specials</p>
+                <a href="#"><i class="bx bxs-chevron-right"></i></a>
             </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Styles/shatr.png" alt="Bird"> 
-                    </div>
-                    <h4>Ketch,Harbour</h4>
-                    <p>Min. 20% Off</p>
+            <ul>
+                <a href="#">
+                    <img src="./index/monsoon-e.png" alt="Bird">
+                    <p>Smart Watches</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Styles/shoes.png" alt="Bird"> 
-                    </div>
-                    <h4>Highlander...</h4>
-                    <p>Min. 30% Off</p>
+                <a href="#">
+                    <img src="./index/monsoon-f.png" alt="Bird">
+                    <p>Serving Sets</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Styles/trakshort.png" alt="Bird"> 
-                    </div>
-                    <h4>Ven Heusen</h4>
-                    <p>Min. 10% Off</p>
+            </ul>
+            <ul>
+                <a href="#">
+                    <img src="./index/monsoon-g.png" alt="Bird">
+                    <p>Classes</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Styles/watch.png" alt="Bird"> 
-                    </div>
-                    <h4>Watches</h4>
-                    <p>Min. 40% Off</p>
+                <a href="#">
+                    <img src="./index/monsoon-h.png" alt="Bird">
+                    <p>Artifical Plants</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Styles/Winterwear.png" alt="Bird"> 
-                    </div>
-                    <h4>Jackets</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
+            </ul>
+        </div>
+        <div class="side-right">
+            <a href="#"><img src="./index/sider-rightb.png" alt="Bird"></a>
         </div>
     </section>
     <!-- Bar 4 -->
-    <section class="factor-d">
-        <a href="./Pages/Kichen_essentials.html" class="fest">Home & Kichen Essentials</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Kichen/badecovers.png" alt="Bird"> 
-                    </div>
-                    <h4>Bade Covers</h4>
+    <section class="collection">
+        <h2>Home & Kichen Essentials</h2>
+        <ul>
+            <a href="#">
+                <li><img src="./index/Kichen/badecovers.png" alt="Bird"></li>
+                <h4>Bade Covers</h4>
                     <p>Min. 34% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Kichen/diya.png" alt="Bird"> 
-                    </div>
-                    <h4>Diya.....</h4>
+            </a>
+            <a href="#">
+                <li><img src="./index/Kichen/diya.png" alt="Bird"></li>
+                <h4>Diya.....</h4>
                     <p>Min. 80% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Kichen/kicentool.png" alt="Bird"> 
-                    </div>
-                    <h4>Kitchen Tools</h4>
-                    <p>Min. 90% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Kichen/plant.png" alt="Bird"> 
-                    </div>
-                    <h4>Live Plants</h4>
+            </a>
+            <a href="#">
+                <li><img src="./index/Kichen/kicentool.png" alt="Bird"></li>
+                <h4>Kitchen Tools</h4>
+                    <p>Min. 90% Off</p>>
+            </a>
+            <a href="#">
+                <li><img src="./index/Kichen/plant.png" alt="Bird"></li>
+                <h4>Live Plants</h4>
                     <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Kichen/pngtree.png" alt="Bird"> 
-                    </div>
-                    <h4>Wall Decor</h4>
+            </a>
+            <a href="#">
+                <li><img src="./index/Kichen/pngtree.png" alt="Bird"></li>
+                <h4>Wall Decor</h4>
                     <p>Min. 80% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Kichen/tools.png" alt="Bird"> 
-                    </div>
-                    <h4>Hand Tool</h4>
+            </a>
+            <a href="#">
+                <li><img src="./index/Kichen/tools.png" alt="Bird"></li>
+                <h4>Hand Tool</h4>
                     <p>Min. 55% Off</p>
-                </a>
-            </div>
-        </div>
+            </a>
+        </ul>
+        <li><a href="./Pages/Kichen_essentials.html">View All</a></li>
     </section>
     <!-- Bar 5 -->
-    <section class="factor-e">
-        <a href="./Pages/sports_health.html" class="fest">Sports, Healthcare & More</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Health/breakfast.png" alt="Bird"> 
-                    </div>
-                    <h4>Breakfast...</h4>
-                    <p>Min. 10% Off</p>
-                </a>
+    <section class="collection">
+        <h2>Sports, Healthcare & More</h2>
+        <ul>
+            <a href="#">
+                <li><img src="./index/Health/breakfast.png" alt="Bird"> </li>
+                <h4>Breakfast...</h4>
+                <p>Min. 10% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Health/butter.png" alt="Bird"></li>
+                <h4>Food Spreads</h4>
+                <p>Min. 35% Off</p>
+            </a>   
+            <a href="#">
+                <li><img src="./index/Health/dryfood.png" alt="Bird"></li>
+                <h4>Dry Fruits</h4>
+                <p>Min. 35% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Health/pngimg.png" alt="Bird"></li>
+                <h4>Honey....</h4>
+                <p>Min. 55% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Health/teapouder.png" alt="Bird"></li>
+                <h4>Tea Powders</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Health/zim.png" alt="Bird"></li>
+                <h4>Gym Essen..</h4>
+                <p>Min. 70% Off</p>
+            </a>
+        </ul>
+        <li><a href="./Pages/sports_health.html">View All</a></li>
+    </section>
+    <!-- section4 B-->
+    <section class="sider">
+        <div class="side-left">
+            <div class="ignore">
+                <p>Get Set For Sports</p>
+                <a href="#"><i class="bx bxs-chevron-right"></i></a>
             </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Health/butter.png" alt="Bird"> 
-                    </div>
-                    <h4>Food Spreads</h4>
-                    <p>Min. 35% Off</p>
+            <ul>
+                <a href="#">
+                    <img src="./index/sport-a.png" alt="Bird">
+                    <p>Men's Tracksuits</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Health/dryfood.png" alt="Bird"> 
-                    </div>
-                    <h4>Dry Fruits</h4>
-                    <p>Min. 35% Off</p>
+                <a href="#">
+                    <img src="./index/sport-b.png" alt="Bird">
+                    <p>Men's Caps</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
+            </ul>
+            <ul>
+                <a href="#">
+                    <img src="./index/sport-c.png" alt="Bird">
+                    <p>Adult Cycles</p>
+                    <h3>Min. 50% Off</h3>
+                </a>
+                <a href="#">
+                    <img src="./index/sport-d.png" alt="Bird">
+                    <p>Kids' T-sharts</p>
+                    <h3>Min. 50% Off</h3>
+                </a>
+            </ul>
+        </div>
+        <div class="side-left">
+            <div class="ignore">
+                <p>Monsoon Essentials</p>
+                <a href="#"><i class="bx bxs-chevron-right"></i></a>
             </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Health/pngimg.png" alt="Bird"> 
-                    </div>
-                    <h4>Honey....</h4>
-                    <p>Min. 55% Off</p>
+            <ul>
+                <a href="#">
+                    <img src="./index/essen-a.png" alt="Bird">
+                    <p>Smart Watches Screen...</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Health/teapouder.png" alt="Bird"> 
-                    </div>
-                    <h4>Tea Powders</h4>
-                    <p>Min. 50% Off</p>
+                <a href="#">
+                    <img src="./index/essen-b.png" alt="Bird">
+                    <p>Face Wash</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Health/zim.png" alt="Bird"> 
-                    </div>
-                    <h4>Gym Essen..</h4>
-                    <p>Min. 70% Off</p>
+            </ul>
+            <ul>
+                <a href="#">
+                    <img src="./index/essen-c.png" alt="Bird">
+                    <p>Emergency Lights</p>
+                    <h3>Min. 50% Off</h3>
                 </a>
+                <a href="#">
+                    <img src="./index/essen-d.png" alt="Bird">
+                    <p>Power Banks</p>
+                    <h3>Min. 50% Off</h3>
+                </a>
+            </ul>
+        </div>
+        <div class="side-left">
+            <div class="ignore">
+                <p>Festive & Pooja Essentials</p>
+                <a href="#"><i class="bx bxs-chevron-right"></i></a>
             </div>
+            <ul>
+                <a href="#">
+                    <img src="./index/fastiv-a.png" alt="Bird">
+                    <p>Curtains</p>
+                    <h3>Min. 50% Off</h3>
+                </a>
+                <a href="#">
+                    <img src="./index/fastiv-b.png" alt="Bird">
+                    <p>Home Temple</p>
+                    <h3>Min. 50% Off</h3>
+                </a>
+            </ul>
+            <ul>
+                <a href="#">
+                    <img src="./index/fastiv-c.png" alt="Bird">
+                    <p>Pooja Thali Sets</p>
+                    <h3>Min. 50% Off</h3>
+                </a>
+                <a href="#">
+                    <img src="./index/fastiv-d.png" alt="Bird">
+                    <p>Chowkis</p>
+                    <h3>Min. 50% Off</h3>
+                </a>
+            </ul>
         </div>
     </section>
     <!-- Bar 6 -->
-    <section class="factor-f">
-        <a href="./Pages/appliances.html" class="fest">To Deals on Appliances</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Applications/refrigerator.png" alt="Bird"> 
-                    </div>
-                    <h4>Double Door..</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Applications/washing.png" alt="Bird"> 
-                    </div>
-                    <h4>Automatic..</h4>
-                    <p>Min. 34% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Applications/puressure.png" alt="Bird"> 
-                    </div>
-                    <h4>Car Presure...</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Applications/motor.png" alt="Bird"> 
-                    </div>
-                    <h4>Pumps....</h4>
-                    <p>Min. 70% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Applications/tayer.png" alt="Bird"> 
-                    </div>
-                    <h4>Tyres...</h4>
-                    <p>Min. 50% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Applications/cycles.png" alt="Bird"> 
-                    </div>
-                    <h4>Geard Cycles</h4>
-                    <p>Min. 23% Off</p>
-                </a>
-            </div>
-        </div>
+    <section class="collection">
+        <h2>To Deals on Appliances</h2>
+        <ul>
+            <a href="#">
+                <li><img src="./index/Applications/refrigerator.png" alt="Bird"> </li>
+                <h4>Double Door..</h4>
+                <p>Min. 40% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Applications/washing.png" alt="Bird"> </li>
+                <h4>Automatic..</h4>
+                <p>Min. 34% Off</p>
+            </a>    
+            <a href="#">
+                <li><img src="./index/Applications/puressure.png" alt="Bird"></li>
+                <h4>Car Presure...</h4>
+                <p>Min. 40% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Applications/motor.png" alt="Bird"></li>
+                <h4>Pumps....</h4>
+                <p>Min. 70% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Applications/tayer.png" alt="Bird"></li>
+                <h4>Tyres...</h4>
+                <p>Min. 50% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Applications/cycles.png" alt="Bird"></li>
+                <h4>Geard Cycles</h4>
+                <p>Min. 23% Off</p>
+            </a>
+        </ul>
+        <li><a href="./Pages/appliances.html">View All</a></li>
     </section>
     <!-- Bar 7 -->
-    <section class="factor-g">
-        <a href="./Pages/top_deals.html" class="fest">Top Deals & More</a>
-        <div class="factor-one">
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Deals/cable.png" alt="Bird"> 
-                    </div>
-                    <h4>Cabiles.....</h4>
-                    <p>Min. 90% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Deals/camerabag.png" alt="Bird"> 
-                    </div>
-                    <h4>Camera Bages</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>    
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Deals/charger.png" alt="Bird"> 
-                    </div>
-                    <h4>Chargers</h4>
-                    <p>Min. 10% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Deals/ipad.png" alt="Bird"> 
-                    </div>
-                    <h4>Apple iPads</h4>
-                    <p>Min. 40% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Deals/styelpen.png" alt="Bird"> 
-                    </div>
-                    <h4>Apple Pencil</h4>
-                    <p>Min. 20% Off</p>
-                </a>
-            </div>
-            <div class="factor-two">
-                <a href="#"><div class="factor-three">
-                    <img src="./New folder/Deals/transponent.png" alt="Bird"> 
-                    </div>
-                    <h4>InsTax....</h4>
-                    <p>Min. 60% Off</p>
-                </a>
-            </div>
-        </div>
+    <section class="collection">
+        <h2>Top Deals & More</h2>
+        <ul>
+            <a href="#">
+                <li><img src="./index/Deals/cable.png" alt="Bird"></li>
+                <h4>Cabiles.....</h4>
+                <p>Min. 90% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Deals/camerabag.png" alt="Bird"> </li>
+                <h4>Camera Bages</h4>
+                <p>Min. 20% Off</p>
+            </a>    
+            <a href="#">
+                <li><img src="./index/Deals/charger.png" alt="Bird"></li>
+                <h4>Chargers</h4>
+                <p>Min. 10% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Deals/ipad.png" alt="Bird"></li>
+                <h4>Apple iPads</h4>
+                <p>Min. 40% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Deals/styelpen.png" alt="Bird"></li>
+                <h4>Apple Pencil</h4>
+                <p>Min. 20% Off</p>
+            </a>
+            <a href="#">
+                <li><img src="./index/Deals/transponent.png" alt="Bird"> </li>
+                <h4>InsTax....</h4>
+                <p>Min. 60% Off</p>
+            </a>
+        </ul>
+        <li><a href="./Pages/top_deals.html">View All</a></li>
     </section>
     <!-- Section4 -->
-    <section class="lastpriv">
-        <a href="#"><p>Back to Top</p></a>
-    </section>
-    <!-- Section5 -->
     <section class="lastmidl">
         <div class="contact">
             <div class="lastmidl-one">
@@ -524,7 +562,7 @@
                     <a href="#">Contact Us</a>
                     <a href="#">About Us</a>
                     <a href="#">Career</a>
-                    <a href="#">Shopping All Store</a>
+                    <a href="#">IndMart Store</a>
                     <a href="#">Press</a>
                     <a href="#">Shopping Wholesale</a>
                     <a href="#">Corporate Information</a>
@@ -566,18 +604,18 @@
             <div class="lastmidl-one">
                 <h4>Mail Us:</h4>
                 <div class="oneidea">
-                    <p class="paragraph">Shopping All Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia, <br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India</p>
+                    <p class="paragraph">IndMart Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia, <br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India</p>
                 </div>
             </div>
             <div class="lastmidl-one">
                 <h4>Register Office Address:</h4>
                 <div class="oneidea">
-                    <p class="paragraph">Shopping All Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia,<br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India <br>Mail: <a href="#">lalbazaramit@gmail.com</a> <br>Mobil No: <a href="#">+918513089660</a></p>
+                    <p class="paragraph">IndMart Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia,<br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India <br>Mail: <a href="#">lalbazaramit@gmail.com</a> <br>Mobil No: <a href="#">+918513089660</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Section6 -->
+    <!-- Section5 -->
     <section class="last">
         <div class="container">
             <div class="container_one">

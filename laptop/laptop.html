@@ -12,22 +12,37 @@
     <nav class="top-nav">
         <div class="top-nav-left">
             <div class="top-nav-lefta">
-                <a href="#">Walmart</a>
+                <a href="#">IndMart</a>
             </div>
             <div class="top-nav-leftb">
-                <input class="search" type="text" name="search" id="search">
+                <input class="search" type="text" name="search" id="search" placeholder="Search for Products, Brands & More">
                 <a href="#" class="btnx"><i class='bx bx-search'></i></a>
             </div>
         </div>
         <div class="top-nav-right">
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-user-circle'></i><p>Log In</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-user-circle'></i><p>Log In</p></a>
+                    <ul id="logins">
+                        <li><i class='bx bxs-up-arrow' ></i><h4>New Customer?</h4><a href="../login/login.html" style="float: right; color: #0c00ff; margin-top: -30px; font-weight: bold;"> Sign Up</a></li>
+                        <li><a href="#"><i class='bx bxs-user-circle' style='color:#0c00ff'  ></i> My Profile</a></li>
+                        <li><a href="#"><i class='bx bx-font-size' style='color:#0c00ff' ></i> IndMart Plus Zone</a></li>
+                        <li><a href="#"><i class='bx bx-trending-up' style='color:#0c00ff'></i> Orders</a></li>
+                        <li><a href="#"><i class='bx bxs-heart' style='color:#0c00ff' ></i> Wishlist</a></li>
+                        <li><a href="#"><i class='bx bxs-coupon' style='color:#0c00ff' ></i> Rewards</a></li>
+                        <li><a href="#"><i class='bx bxs-gift' style='color:#0c00ff' ></i> Gift Cards</a></li>
+                    </ul>
+                </li>
             </div>
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-heart' ></i><p>Favorites</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-heart' ></i><p>Favorites</p></a>
+                </li>
             </div>
             <div class="top-nav-righta">
-                <a href="#"><i class='bx bx-cart' ></i><p>Cart</p></a>
+                <li>
+                    <a href="#"><i class='bx bx-cart' ></i><p>Cart</p></a>
+                </li>
             </div>
         </div>
     </nav>
@@ -218,138 +233,393 @@
             </li>
         </ul>
     </section>
-    <!-- Section -->/
-    <Section class="content-bx-one">
+    <!-- Section2 -->
+    <div class="slider">
+        <div class="btn-container btn-left" onclick="left()">
+            <button class="btn">
+                <i class='bx bxs-chevron-left' ></i>
+            </button>
+        </div>
+        <div class="slider_image">
+            <img class="sliderimge" src="./slide-a.avif" alt="Bird">
+            <img class="sliderimge" src="./slide-b.avif" alt="Bird">
+            <img class="sliderimge" src="./slide-c.avif" alt="Bird">
+            <img class="sliderimge" src="./slide-d.avif" alt="Bird">
+            <img class="sliderimge" src="./slide-e.avif" alt="Bird">
+            <img class="sliderimge" src="./slide-f.avif" alt="Bird">
+        </div>
+        <div class="btn-container btn-right" onclick="right()">
+            <button class="btn">
+                <i class='bx bxs-chevron-right' ></i>
+            </button>
+        </div>
+    </div>
+    <!-- Section3 -->
+    <section class="tech">
+        <p>Latest in Tech</p>
+        <div class="tech-cont">
+            <a href="#"><img src="tech-a.webp" alt="Bird"></a>
+            <a href="#"><img src="tech-b.webp" alt="Bird"></a>
+            <a href="#"><img src="tech-c.webp" alt="Bird"></a>
+            <a href="#"><img src="tech-d.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section4 -->
+    <section class="apple">
+        <p>Hot Deals in Apple</p>
+        <div class="apple-cont">
+            <a href="#"><img src="apple-a.webp" alt="Bird"></a>
+            <a href="#"><img src="apple-b.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section3 A -->
+    <section class="tech">
+        <p>Trendsetter</p>
+        <div class="tech-cont">
+            <a href="#"><img src="treansletter-a.webp" alt="Bird"></a>
+            <a href="#"><img src="treansletter-b.webp" alt="Bird"></a>
+            <a href="#"><img src="treansletter-c.webp" alt="Bird"></a>
+            <a href="#"><img src="treansletter-d.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section5 -->
+    <section class="blank">
+        <div class="blank-cont">
+            <a href="#"><img src="blank-a.webp" alt="Bird"></a>
+            <a href="#"><img src="blank-b.webp" alt="Bird"></a>
+            <a href="#"><img src="blank-c.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section3 B -->
+    <section class="tech">
+        <p>Top Picks for Students in you</p>
+        <div class="tech-cont">
+            <a href="#"><img src="students-a.webp" alt="Bird"></a>
+            <a href="#"><img src="students-b.webp" alt="Bird"></a>
+            <a href="#"><img src="students-c.webp" alt="Bird"></a>
+            <a href="#"><img src="students-d.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section6 -->
+    <section class="container-one">
+        <h2>Top Pick for Professionals/creators in you</h2>
+        <div class="container-item" id="container-item">
+            <div class="item-one">
+                <a href="#"><img src="prof-a.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="prof-b.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="prof-c.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="prof-d.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="prof-e.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="prof-f.webp" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="left"></i>
+        <i class='bx bx-chevron-right' id="right"></i>
+    </section>
+    <!-- Section3 C -->
+    <section class="tech">
+        <p>Top Picks for Gamers in you</p>
+        <div class="tech-cont">
+            <a href="#"><img src="gamers-a.webp" alt="Bird"></a>
+            <a href="#"><img src="gamers-b.webp" alt="Bird"></a>
+            <a href="#"><img src="gamers-c.webp" alt="Bird"></a>
+            <a href="#"><img src="gamers-d.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section4 A-->
+    <section class="apple">
+        <p>Latest Laptops For You</p>
+        <div class="apple-cont">
+            <a href="#"><img src="latest-a.webp" alt="Bird"></a>
+            <a href="#"><img src="latest-b.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section3 D -->
+    <section class="tech">
         <p>Laptops</p>
-        <h3>13 Items</h3>
-    </Section>
-    <!-- Section -->/
-    <Section class="content-bx-two">
-        <div class="content-bx-big">
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://images.samsung.com/is/image/samsung/p6pim/id/xe310xba-ka2id/gallery/id-chromebook-4-xe310xbai-xe310xba-ka2id-496089145?$650_519_PNG$" alt="Bird"></div>
-                <h4>Samsung Laptops</h4>
-                <h2>Up to 30% Off</h2>
-                <h3>NCEMI | Exch. Off*</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://www.transparentpng.com/thumb/laptop/9oRuDc-refreshed-pavilion-gaming-series-launching-next-month.png" alt="Bird"></div>
-                <h4>HP Laptops</h4>
-                <h2>From ₹19,990</h2>
-                <h3>NCEMI | Exch. Off*</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://www.notebookcheck.net/fileadmin/Notebooks/Xiaomi/RedmiBook_Pro_15/Xiaomi_RedmiBook_Pro_15_teaser.jpg" alt="Bird"></div>
-                <h4>RedmiBook Pro Core i5 11th Gen</h4>
-                <h2>Just ₹37,990</h2>
-                <h3>₹41,360 <del>₹59,990</del></h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://rukminim2.flixcart.com/image/800/450/cms-rpd-images/df2b1bdd97cd4f25b65ce2c3d2a044e8_17d7f6216b5_image.png?q=90" alt="Bird"></div>
-                <h4>Infinix Laptops</h4>
-                <h2>From ₹24,990</h2>
-                <h3>X1 Slim, Y1 Plus & more</h3>
-            </a>
-            
+        <div class="tech-cont">
+            <a href="#"><img src="lap-a.webp" alt="Bird"></a>
+            <a href="#"><img src="lap-b.webp" alt="Bird"></a>
+            <a href="#"><img src="lap-c.webp" alt="Bird"></a>
+            <a href="#"><img src="lap-d.webp" alt="Bird"></a>
         </div>
-        <div class="content-bx-big">
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://image01.realme.net/general/20210812/1628766720730.png.webp" alt="Bird"></div>
-                <h4>realme Laptops</h4>
-                <h2>from ₹35,990</h2>
-                <h3>Limited Time Offer</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://static.digit.in/default/tr:w-1200/image3-e7c9307707.png" alt="Bird"></div>
-                <h4>Primebook Laptops</h4>
-                <h2>From ₹16,990</h2>
-                <h3>Android Based OS</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://th-i.thgim.com/public/sci-tech/technology/27wb9t/article65643434.ece/alternates/FREE_1200/MSI_NB_GE67%20HX.png" alt="Bird"></div>
-                <h4>MSI Laptops</h4>
-                <h2>From ₹34,990</h2>
-                <h3>0% EMI 12 M*</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://www.pngitem.com/pimgs/m/106-1066644_laptop-png-free-download-asus-gaming-laptop-png.png" alt="Bird"></div>
-                <h4>ASUS Laptops</h4>
-                <h2>From ₹20,000</h2>
-                <h3>Top Discount on Sale</h3>
-            </a>
-            
+    </section>
+    <!-- Section6 .6A-->
+    <section class="container-Trendbig">
+        <h2>Top Trending Deals</h2>
+        <div class="container-Trend" id="container-Trend">
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-a.webp" alt="Bird">
+                    <p>HP 15s-fq2717TU Intel Core</p>
+                    <p>i3 11th Gen (15.6 inch, 8GB...</p>
+                    <h1>₹38,990.00 <del style="color: #504e4e; font-size: 17px;">₹49,025.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star-half' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#889393'  ></i>
+                    </ul>
+                </a>
+            </div>
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-b.webp" alt="Bird">
+                    <p>ASUS Vivobook 15 Intel</p>
+                    <p>Core i3 11th Gen(15.6inc...</p>
+                    <h1>₹37,990.00 <del style="color: #504e4e; font-size: 17px;">₹51,990.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star-half' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#889393'  ></i>
+                    </ul>
+                </a>
+            </div>
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-c.webp" alt="Bird">
+                    <p>HP 15s-eq2144AU AMD </p>
+                    <p>Ryzon 5(15.6 inch, 8GB,..</p>
+                    <h1>₹43,950.00 <del style="color: #504e4e; font-size: 17px;">₹60,958.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star-half' style='color:#1dc2c2'  ></i>
+                    </ul>
+                </a>
+            </div>
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-d.webp" alt="Bird">
+                    <p>Lenovo IdeaPad 3 15ITL6</p>
+                    <p>Intel Core i3 11th Gen(15....</p>
+                    <h1>₹34,490.00 <del style="color: #504e4e; font-size: 17px;">₹54,490.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393'  ></i>
+                    </ul>
+                </a>
+            </div>
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-e.webp" alt="Bird">
+                    <p>Lenovo IdeaPad 3 14ITL6</p>
+                    <p>Intel Core i3 11th Gen(14....</p>
+                    <h1>₹36,490.00 <del style="color: #504e4e; font-size: 17px;">₹62,190.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star-half' style='color:#1dc2c2'  ></i>
+                    </ul>
+                </a>
+            </div>
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-f.webp" alt="Bird">
+                    <p>ASUS Vivobook Ryzon 5(16</p>
+                    <p>inches, 16GB, 512GB,...</p>
+                    <h1>₹53,499.00 <del style="color: #504e4e; font-size: 17px;">₹74,990.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star' style='color:#0added' ></i>
+                    <i class='bx bxs-star-half' style='color:#1dc2c2'  ></i>
+                    </ul>
+                </a>
+            </div>
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-g.webp" alt="Bird">
+                    <p>ASUS X1502ZA Intel Core i5</p>
+                    <p>12th Gen (15.6 inch, 8GB...</p>
+                    <h1>₹51,390.00 <del style="color: #504e4e; font-size: 17px;">₹70,990.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393'  ></i>
+                    </ul>
+                </a>
+            </div>
+            <div class="item-Trend">
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <img src="Trending-a.webp" alt="Bird">
+                    <p>Lenovo IdeaPad 3 15ITL05</p>
+                    <p>Intel core i3 11th Gen (15...</p>
+                    <h1>₹36,990.00 <del style="color: #504e4e; font-size: 17px;">₹67,090.00</del></h1>
+                    <ul>
+                    <i class='bx bxs-star' style='color:#889393'  ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393' ></i>
+                    <i class='bx bxs-star' style='color:#889393'  ></i>
+                    </ul>
+                </a>
+            </div>
         </div>
-        <div class="content-bx-big">
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://www.nicepng.com/png/detail/2-20186_lenovo-laptop-png-images-laptops-hd-images-png.png" alt="Bird"></div>
-                <h4>Lenovo Laptops</h4>
-                <h2>From ₹26,490</h2>
-                <h3>Top Discount on Sale</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAvn0TBgMKO3V2tk4oJ4kqpiVwwBXfJiLgsA&usqp=CAU" alt="Bird"></div>
-                <h4>DELL Laptops</h4>
-                <h2>From ₹27,990</h2>
-                <h3>Top Discount on Sale</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="data:image/jpeg;base64,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" alt="Bird"></div>
-                <h4>Acer Laptops</h4>
-                <h2>From ₹49,999</h2>
-                <h3>Upto ₹19,900 off on Exchange</h3>
-            </a>
-            <a href="#">
-                <div class="img-bx">
-                <img src="data:image/jpeg;base64,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" alt="Bird"></div>
-                <h4>APPLE Laptops</h4>
-                <h2>From ₹65,999</h2>
-                <h3>Extra 23% Off</h3>
-            </a>
-            
+        <i class='bx bx-chevron-left' id="leftf"></i>
+        <i class='bx bx-chevron-right' id="rightf"></i>
+    </section>
+    <!-- Section6 A-->
+    <section class="container-one">
+        <h2>Your Laptop, Your Use</h2>
+        <div class="container-item" id="container-itema">
+            <div class="item-one">
+                <a href="#"><img src="use-a.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="use-b.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="use-c.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="use-d.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="use-e.webp" alt="Bird"></a>
+            </div>
+            <div class="item-one">
+                <a href="#"><img src="use-f.webp" alt="Bird"></a>
+            </div>
         </div>
-        <div class="content-bx-big">
-            <a href="#">
-                <div class="img-bx">
-                <img src="https://www.lavamobiles.com/blog/wp-content/uploads/2018/07/Lava-Helium-Notebooks.png" alt="Bird"></div>
-                <h4>Lava Laptops</h4>
-                <h2>From ₹27,490</h2>
-                <h3><del>₹35,890</del> 20% Off</h3>
-            </a>
-            <a href="#">
-                <!-- <div class="img-bx">
-                <img src="#" alt="Bird"></div>
-                <h4>DELL Laptops</h4>
-                <h2>From ₹27,990</h2>
-                <h3>Top Discount on Sale</h3> -->
-            </a>
-            <a href="#">
-                <!-- <div class="img-bx">
-                <img src="#" alt="Bird"></div>
-                <h4>Acer Laptops</h4>
-                <h2>From ₹49,999</h2>
-                <h3>Upto ₹19,900 off on Exchange</h3> -->
-            </a>
-            <a href="#">
-                <!-- <div class="img-bx">
-                <img src="#" alt="Bird"></div>
-                <h4>APPLE Laptops</h4>
-                <h2>From ₹65,999</h2>
-                <h3>Extra 23% Off</h3> -->
-            </a>
-            
+        <i class='bx bx-chevron-left' id="lefta"></i>
+        <i class='bx bx-chevron-right' id="righta"></i>
+    </section>
+    <!-- Section7 -->
+    <section class="os">
+        <p>Choose Your OS</p>
+        <div class="os-box">
+            <a href="#"><img src="os-a.webp" alt="Bird"></a>
+            <a href="#"><img src="os-b.webp" alt="Bird"></a>
+            <a href="#"><img src="os-c.webp" alt="Bird"></a>
         </div>
-    </Section>
+    </section>
+    <!-- Section8 -->
+    <section class="container-two">
+        <h2>Pick Your Laptop Brand</h2>
+        <div class="container-bx" id="container-bx">
+            <div class="item-bx">
+                <a href="#"><img src="pick-a.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-b.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-c.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-d.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-e.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-f.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-g.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-h.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-i.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="pick-j.webp" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftb"></i>
+        <i class='bx bx-chevron-right' id="rightb"></i>
+    </section>
+    <!-- Section9 -->
+    <section class="size">
+        <p>Size Up Your Screen</p>
+        <div class="sizebx">
+            <a href="#"><img src="size-a.webp" alt="Bird"></a>
+            <a href="#"><img src="size-b.webp" alt="Bird"></a>
+            <a href="#"><img src="size-c.webp" alt="Bird"></a>
+            <a href="#"><img src="size-d.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section8 A-->
+    <section class="container-two">
+        <h2>For Your Budget</h2>
+        <div class="container-bx" id="container-bxa">
+            <div class="item-bx">
+                <a href="#"><img src="budget-a.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="budget-b.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="budget-c.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="budget-d.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="budget-e.webp" alt="Bird"></a>
+            </div>
+            <div class="item-bx">
+                <a href="#"><img src="budget-f.webp" alt="Bird"></a>
+            </div>
+        </div>
+        <i class='bx bx-chevron-left' id="leftc"></i>
+        <i class='bx bx-chevron-right' id="rightc"></i>
+    </section>
+    <!-- Section10 -->
+    <section class="processor">
+        <li><img src="processor-bag.jpg" alt="Bird"></li>
+        <p>Your Preferred Processor</p>
+        <div class="processor-bx">
+            <a href="#"><img src="processor-a.webp" alt="Bird"></a>
+            <a href="#"><img src="processor-b.webp" alt="Bird"></a>
+            <a href="#"><img src="processor-c.webp" alt="Bird"></a>
+            <a href="#"><img src="processor-d.webp" alt="Bird"></a>
+        </div>
+    </section>
+    <!-- Section10  A-->
+    <section class="processor-b">
+        <li><img src="processor-bagb.jpg" alt="Bird"></li>
+        <div class="processor-bxb">
+            <a href="#"><img src="processor-e.webp" alt="Bird"></a>
+            <a href="#"><img src="processor-f.webp" alt="Bird"></a>
+            <a href="#"><img src="processor-g.webp" alt="Bird"></a>
+            <a href="#"><img src="processor-h.webp" alt="Bird"></a>
+        </div>
+    </section>
     <!-- Section11 -->
     <section class="lastmidl">
         <div class="contact">
@@ -359,7 +629,7 @@
                     <a href="#">Contact Us</a>
                     <a href="#">About Us</a>
                     <a href="#">Career</a>
-                    <a href="#">Shopping All Store</a>
+                    <a href="#">IndMart Store</a>
                     <a href="#">Press</a>
                     <a href="#">Shopping Wholesale</a>
                     <a href="#">Corporate Information</a>
@@ -401,13 +671,13 @@
             <div class="lastmidl-one">
                 <h4>Mail Us:</h4>
                 <div class="oneidea">
-                    <p class="paragraph">Shopping All Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia, <br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India</p>
+                    <p class="paragraph">IndMart Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia, <br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India</p>
                 </div>
             </div>
             <div class="lastmidl-one">
                 <h4>Register Office Address:</h4>
                 <div class="oneidea">
-                    <p class="paragraph">Shopping All Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia,<br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India <br>Mail: <a href="#">lalbazaramit@gmail.com</a> <br>Mobil No: <a href="#">+918513089660</a></p>
+                    <p class="paragraph">IndMart Private Limited,<br>Vill- Betai, Post- Betai, <br>P.S- Tehatta, dist- Nadia,<br>Krishnanagar to Karimpur Road, <br>Pin- 741163 (West Bengal) <br>Kolkata, India <br>Mail: <a href="#">lalbazaramit@gmail.com</a> <br>Mobil No: <a href="#">+918513089660</a></p>
                 </div>
             </div>
         </div>
@@ -431,9 +701,10 @@
                 <p>2023 | Amit Mandal</p>
             </div>
             <div class="container_two">
-                <img src="./vi.png" alt="Bird">
+                <img src="../index/vi.png" alt="Bird">
             </div>
         </div>
     </section>
+    <script src="./laptops.js"></script>
 </body>
 </html>

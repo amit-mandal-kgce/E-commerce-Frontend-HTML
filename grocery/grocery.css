@@ -7,7 +7,17 @@ body{
     margin-top: 61px;
     overflow-x: hidden;
 }
-
+/* -----------Scroll bar Desigin--------- */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff,#ff22e6);
+    border-radius: 12px;
+}
 /* section1 */
 .Navbar{
     position: absolute;
@@ -211,6 +221,7 @@ li:hover ul#morein{
     z-index: 1;
     position: relative;
     top: 13px;
+    height: auto;
     flex-direction: column;
     /* border: 1px solid black; */
 }
@@ -219,20 +230,22 @@ li:hover ul#contentmini{
     visibility: visible;
 }
 #contentmini li{
-    margin: 0;
+    margin: 0px 25px;
     width: 100%;
-    border-bottom: .1px solid #DCDCDC;
+    height: 40px;
+    text-align: start;
+    border-bottom: .1px solid #F5F5F5;
 }
 #contentmini a{
     position: relative;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 15px;
     color: #000;
     text-decoration: none;
     transition: all .3s;
 }
 #contentmini a:hover{
-    color: #20B2AA;
+    color: #0000FF;
 }
 /* Section3 */
 .container-one{
@@ -251,11 +264,11 @@ li:hover ul#contentmini{
     position: absolute;
     width: 80px;
     height: 80px;
-    color: #009933;
+    color: #ffffff;
     border-radius: 50px;
     font-size: 80px;
     background: #00000016;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .bx-caret-left{
     top: 120px;
@@ -389,6 +402,7 @@ li:hover ul#contentmini{
     width: 80px;
     height: 80px;
     background: #55555532;
+    color: #ffffff;
     border-radius: 50px;
 }
 .bx-chevron-left{
@@ -440,22 +454,142 @@ li:hover ul#contentmini{
 }
 .item a{
     text-decoration: none;
-}
-.item a p{
     color: #000;
-    transition: all .3s;
+    transition: transform 2s;
 }
-.item a p:hover{
+.item a:hover{
     color: #20B2AA;
 }
 .item img{
-    width: 55%;
+    width: 40%;
+    height: 130px;
     margin-top: 5px;
 }
+.item h5{
+    padding: 1px;
+    color: 	#0d00ff;
+}
+.item li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.item h3{ 
+    font-weight: 100;
+}
+.item h3 del{
+    font-size: 15px;
+    color: #a29d9d;
+}
+.item h4{
+    padding: 2px 8px;
+    color: #38761d;
+}
 .item div{
-    padding: 12px;
+    padding: 7px;
     margin: 14px;
-    font-size: 20px;
+    font-size: 16px;
     color: #2986cc;
-    border: 1px solid #D3D3D3;
+    cursor: pointer;
+    border: 1px solid #ebe8e8;
+}
+/* Section6 */
+.lastmidl{
+    position: relative;
+    top: 0x;
+    left: 0;
+    width: 100%;
+    height: 290px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background: #112e42;
+}
+.contact{
+    display: flex;
+}
+.lastmidl-one{
+    position: relative;
+    top: 30px;
+    left: 2rem;
+    width: 16%;
+    height: 220px;
+    padding: 1px 20px;
+    box-sizing: border-box;
+    color: #708090;
+    transition: all 0.3s;
+    /* border: 2px solid  #ededed; */
+}
+.oneid{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.oneid a{
+    transition: all 0.3s;
+    color: #ededed;
+    text-decoration: #112e42;
+}
+.lastmidl-one .oneid a:hover{
+    color: #ffffff;
+    text-decoration:underline;
+}
+.oneidea{
+    margin-top: 18px;
+}
+.oneidea p{
+    color: #ededed;
+}
+.oneidea a{
+    color:  #00abf0;
+    text-decoration: none;
+}
+.line{
+    position: relative;
+    top: 51px;
+    left: 2rem;
+    height: 165px;
+    border: 2px solid #2F4F4F;
+
+}
+/* Section7 */
+.last{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 61px;
+    box-sizing: border-box;
+    background: #081b29;
+}
+.container{
+    display: flex;
+}
+.container_one{
+    position: relative;
+    top: 12px;
+    left: 3rem;
+    width: 12%;
+    height: 50px;
+    padding: 11px 26px;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+.container_one a,
+.container_one p{
+    color: #ededed;
+    text-decoration: none;
+}
+.container_two{
+    position: relative;
+    top: 21px;
+    left: 11rem;
+    width: 20%;
+    height: 23px;
+    box-sizing: border-box;
+    /* border: 2px solid yellow; */
+}
+.container_two img{
+    width: 100%;
+    height: 20px;
 }
